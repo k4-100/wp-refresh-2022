@@ -1,0 +1,10 @@
+{
+    "liveSassCompile.settings.formats": [
+            // This is default
+            {
+                "format": "expanded",
+                "extensionName": ".css",
+                "savePath": "/"
+            },
+    ]
+}
