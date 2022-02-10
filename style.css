@@ -3,11 +3,11 @@ Theme Name: WP-REFRESH-2022
 Author: some uy
 */
 body {
-  background: green;
+  background: steelblue;
 }
 
 body p {
-  background: grey;
+  background: darkcyan;
   padding: 1rem;
   color: white;
 }
