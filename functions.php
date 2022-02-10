@@ -31,4 +31,15 @@
         "wp_enqueue_scripts",
         "load_js"
     );
+
+    // pozycje menu 
+    register_nav_menus(
+        array(
+            // nazwa => identyfikator, theme
+            "top-menu" => __(
+                "Top Menu",
+                "theme"
+            )
+        )
+    );
 ?>

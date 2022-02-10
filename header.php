@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <?php
+            wp_nav_menu(
+                array(
+                    // lokacja navbaru
+                    "theme_location" => "top-menu",
+                    // ustala nazwe klasy dla obiektu nadrzędnego <ul>
+                    "menu_class" => "gambit_nav-links"
+                )
+            )
+        ?>
+    </header>
 <?php 
     wp_head();
 ?>
